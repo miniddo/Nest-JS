@@ -5,7 +5,6 @@ import { DogsController } from './dogs/dogs.controller';
 import { DogService } from './dogs/dogs.service';
 
 @Module({
-  imports: [],
   controllers: [AppController, DogsController],
   providers: [AppService, DogService],
 })

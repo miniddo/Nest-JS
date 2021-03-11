@@ -22,7 +22,7 @@ import { Request } from 'express';
 
 @Controller('dogs')
 export class DogsController {
-  constructor(private readonly dogService: DogService) {}
+  constructor(private readonly dogService: DogService) {}   // 의존성 주입
 
   // Nest에게 HTTP Request들의 Endpoint를 구체적으로 지정
   // localhost:3000/dogs
